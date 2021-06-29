@@ -13,9 +13,9 @@ using System.Windows.Forms;
 
 namespace Creating_Writing_DGV_TO_EXCEL
 {
-    public partial class Form1 : Form
+    public partial class FormExport : Form
     {
-        public Form1()
+        public FormExport()
         {
             InitializeComponent();
             // first, Adding EPPPlus from nugat packages
@@ -29,17 +29,35 @@ namespace Creating_Writing_DGV_TO_EXCEL
 
         private async Task<DataTable> loadData()
         {
-            MySqlConnection conn = new MySqlConnection("server=192.168.0.2;userid=root;password=boom123;");
-            MySqlDataAdapter da = new MySqlDataAdapter(txtSQL.Text, conn);
-            conn.Open();
+            if (txtSQL.Text == "")
+            {
+                MessageBox.Show("query string is required...");
+                return null;
+            }
+            try
+            {
+                MySqlConnection conn = new MySqlConnection("server=192.168.0.2;userid=root;password=boom123;");
+                MySqlDataAdapter da = new MySqlDataAdapter(txtSQL.Text, conn);
+                conn.Open();
 
-            await Task.Run(() => da.Fill(dt));
+                await Task.Run(() => da.Fill(dt));
 
-            return dt;
+                return dt;
+            }
+            catch
+            {
+                return null;
+            }
         }
 
         private void btnExportExcel_Click(object sender, EventArgs e)
         {
+            if (dgvData.Rows.Count < 0 || dgvData.Rows.Count == 0 || dgvData.DataSource == null)
+            {
+                MessageBox.Show("ทำการ query ก่อนครับ");
+                return;
+            }
+
             SaveFileDialog sfd = new SaveFileDialog();
             sfd.Filter = "Excel Workbook|*.xlsx";
             try
@@ -70,6 +88,12 @@ namespace Creating_Writing_DGV_TO_EXCEL
             {
                 dgvData.DataSource = await loadData();
             }
+        }
+
+        private void btnSetting_Click(object sender, EventArgs e)
+        {
+            FormSetting f = new FormSetting();
+            f.ShowDialog();
         }
     }
 }

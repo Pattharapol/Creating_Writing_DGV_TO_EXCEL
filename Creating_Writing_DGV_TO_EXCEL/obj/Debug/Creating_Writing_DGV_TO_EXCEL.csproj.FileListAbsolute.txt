@@ -1,8 +1,6 @@
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\bin\Debug\Creating_Writing_DGV_TO_EXCEL.exe.config
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\bin\Debug\Creating_Writing_DGV_TO_EXCEL.exe
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\bin\Debug\Creating_Writing_DGV_TO_EXCEL.pdb
-E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.csproj.AssemblyReference.cache
-E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.Form1.resources
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.Properties.Resources.resources
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.csproj.GenerateResource.cache
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.csproj.CoreCompileInputs.cache
@@ -14,3 +12,6 @@ E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\bin\Debug\EPPlus.xml
 E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.FormExport.resources
+E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.FormSetting.resources
+E:\#1 CodingArea\C#_Practice\Creating_Writing_DGV_TO_EXCEL\Creating_Writing_DGV_TO_EXCEL\obj\Debug\Creating_Writing_DGV_TO_EXCEL.csproj.AssemblyReference.cache

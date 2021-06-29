@@ -1,7 +1,7 @@
 ﻿
 namespace Creating_Writing_DGV_TO_EXCEL
 {
-    partial class Form1
+    partial class FormExport
     {
         /// <summary>
         /// Required designer variable.
@@ -34,6 +34,7 @@ namespace Creating_Writing_DGV_TO_EXCEL
             this.txtSQL = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnRun = new System.Windows.Forms.Button();
+            this.btnSetting = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +48,7 @@ namespace Creating_Writing_DGV_TO_EXCEL
             // 
             // btnExportExcel
             // 
-            this.btnExportExcel.Location = new System.Drawing.Point(820, 205);
+            this.btnExportExcel.Location = new System.Drawing.Point(820, 60);
             this.btnExportExcel.Name = "btnExportExcel";
             this.btnExportExcel.Size = new System.Drawing.Size(111, 34);
             this.btnExportExcel.TabIndex = 1;
@@ -84,11 +85,22 @@ namespace Creating_Writing_DGV_TO_EXCEL
             this.btnRun.UseVisualStyleBackColor = true;
             this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
             // 
+            // btnSetting
+            // 
+            this.btnSetting.Location = new System.Drawing.Point(820, 100);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Size = new System.Drawing.Size(111, 34);
+            this.btnSetting.TabIndex = 5;
+            this.btnSetting.Text = "Setting";
+            this.btnSetting.UseVisualStyleBackColor = true;
+            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(943, 632);
+            this.Controls.Add(this.btnSetting);
             this.Controls.Add(this.btnRun);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSQL);
@@ -110,6 +122,7 @@ namespace Creating_Writing_DGV_TO_EXCEL
         private System.Windows.Forms.TextBox txtSQL;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRun;
+        private System.Windows.Forms.Button btnSetting;
     }
 }
 
